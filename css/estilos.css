@@ -1,0 +1,73 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bg-hero {
+    background: url('../assets/img-hero.png') no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.color-deep-blue {
+    background:rgba(5, 65, 187, 0.7);
+    color:#fff;
+}
+
+.hero-main {
+    height: 600px;
+}
+
+.center-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-deep-blue h1 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 700;
+    width: 90%;
+    overflow-wrap: break-word;
+}
+
+.color-deep-blue p {
+    font-size: 24px;
+    line-height: 48px;
+    width: 80%;
+}
+
+.side-image {
+    text-align: right;
+    padding-top: 60px;
+    position: relative;
+}
+
+.side-image-compl {
+    background: url('../assets/bg-image-side.svg') no-repeat;
+    width: 194px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+}
+
+.size-c {
+    width: 160px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contenido p {
+    margin: 0 0 30px 0;
+}
+
+.estilo-titulo::before {
+    content:url('../assets/title-option.png');
+    display: block;
+}
+
+.bg-sobre {
+    background: url('../assets/bg-sobre.png') no-repeat 30px 110px;
+}
