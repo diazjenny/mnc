@@ -63,6 +63,20 @@ body {
     margin: 0 0 30px 0;
 }
 
+.contenido ul {
+    margin-bottom: 40px;
+}
+
+.contenido ul li {
+    margin-left: 50px;
+    margin-bottom:10px;
+    list-style-type: disc;
+}
+
+.estilo-titulo {
+    
+}
+
 .estilo-titulo::before {
     content:url('../assets/title-option.png');
     display: block;
@@ -70,4 +84,33 @@ body {
 
 .bg-sobre {
     background: url('../assets/bg-sobre.png') no-repeat 30px 110px;
+}
+
+h3.titulo-etapa {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+h3.titulo-etapa::before {
+    content: url('../assets/etapa-bullet.png');
+    float: left;
+    margin-right: 30px;
+}
+
+.dimension-uno::after {
+    content:url('../assets/dimension-uno.png');
+    display: block;
+    margin-top:5px;
+}
+
+.dimension-dos::after {
+    content:url('../assets/dimension-dos.png');
+    display: block;
+    margin-top:5px;
+}
+
+.dimension-tres::after {
+    content:url('../assets/dimension-tres.png');
+    display: block;
+    margin-top:5px;
 }
