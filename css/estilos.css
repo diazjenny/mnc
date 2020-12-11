@@ -127,3 +127,10 @@ h3.titulo-etapa::before {
 .header-img img {
     width: 100%;
 }
+
+h3.catalogo {
+    font-size: 28px;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
