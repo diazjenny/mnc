@@ -133,4 +133,9 @@ h3.catalogo {
     border-bottom: solid 1px;
     padding-bottom: 5px;
     margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+a.is-link {
+    margin-bottom: 20px;
 }
