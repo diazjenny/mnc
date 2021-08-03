@@ -159,3 +159,17 @@ a.is-link {
     font-size: 14px;
     text-align: center;
 }
+
+h4.titulo-caracteristicas{
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.estilo-caracteristicas::before {
+    content:url('../assets/subrayado.png');
+    display:block;
+}
+
+.parrafo-caracteristicas{
+    padding-top: 20px;
+}
