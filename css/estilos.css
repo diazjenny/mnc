@@ -165,15 +165,6 @@ h4.titulo-caracteristicas {
   padding-bottom: 0px;
 }
 
-.estilo-caracteristicas::before {
-  content: url("../assets/subrayado.png");
-  display: block;
-}
-
-.parrafo-caracteristicas {
-  padding-top: 20px;
-}
-
 .table {
   font-size: 14px;
 }
@@ -181,4 +172,15 @@ h4.titulo-caracteristicas {
 .btn {
   padding-top: calc(0.5em - 10px);
   padding-bottom: calc(0.5em - 10px);
+}
+
+.def-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  margin-top: 7px;
+}
+
+.ajuste-col-iconos {
+  padding: 0px;
 }
