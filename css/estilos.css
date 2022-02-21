@@ -184,3 +184,8 @@ h4.titulo-caracteristicas {
 .ajuste-col-iconos {
   padding: 0px;
 }
+
+li.resaltado {
+  font-size: 19px;
+  font-weight: bold;
+}
